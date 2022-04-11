@@ -7,21 +7,27 @@ ul, li, a {
     font-weight: 600;
 }
 nav {
-    padding: 20px;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
     text-align:  right;
-    margin-right: 80px;
+    box-shadow: 0px 0px 8px 0px rgb(231, 231, 231);
 }
 #foto{
-    float: right;
+    float: left;
     position: relative;
-    margin-right: 200px;
+    width: 50%;
+
 }
 #informacoes{
     float: left;
-    width: 500px;
-    margin-top: 20px;
+    width: 450px;
+    height: 400px;
     padding: 15px;
-    margin-left: 100px;
+    margin-top: 40px;
+    background-color: #0c0b3a;
+    border-radius: 0px 10px 10px 0px;
+    box-shadow: 0px 10px 10px 0px grey;
 }
 section h1{
     margin: 15px;
@@ -49,8 +55,14 @@ section button {
     border-radius: 10px;
     color: #fff;
     background-color: #0d3999;
-    box-shadow: 0px 3px 8px 0px #979797;
+    box-shadow: 0px 3px 8px 0px #1d1d1d8f;
 }
 section button:hover{
     background-color: #2281a7;
+}
+footer{
+    float: left;
+    width: 100%;
+    color: #000;
+    text-align: center;
 }
