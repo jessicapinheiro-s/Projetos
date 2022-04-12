@@ -8,8 +8,5 @@ body {
     @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Roboto:wght@900&display=swap');
     font-family: 'Roboto', sans-serif;
     font-size: 1em;
-    background-color: #ffffff;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-color: #f8f8f8;
 }

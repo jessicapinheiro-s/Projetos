@@ -2,7 +2,7 @@ ul, li, a {
     list-style: none;
     text-decoration: none;
     display: inline;
-    color: #0d3999;
+    color: #cd3700;
     margin: 10px;
     font-weight: 600;
 }
@@ -11,58 +11,62 @@ nav {
     padding-top: 30px;
     padding-bottom: 30px;
     text-align:  right;
-    box-shadow: 0px 0px 8px 0px rgb(231, 231, 231);
+    box-shadow: 0px 0px 8px 0px #d1d1d1;
 }
-#foto{
-    float: left;
-    position: relative;
-    width: 50%;
 
+#foto{
+    float: right;
+    width: 50%;
+    height: 641px;
+}
+#foto img{
+    float: left;
 }
 #informacoes{
     float: left;
-    width: 450px;
-    height: 400px;
-    padding: 15px;
-    margin-top: 40px;
-    background-color: #0c0b3a;
-    border-radius: 0px 10px 10px 0px;
-    box-shadow: 0px 10px 10px 0px grey;
+    width: 50%;
+    height: 641px;
 }
-section h1{
-    margin: 15px;
-    font-size: 2em;
+#info{
+    float: right;
+    margin: 30px;
+}
+#info h1{
+    font-size: 3em;
     font-weight: 800;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    color: #0d3999;
+    color: #cd3700;
 }
-section h2{
+#info h2 {
+    font-size: 2em;
     font-weight: 700;
     color: #5299a1;
-    margin: 15px;
 }
-section p {
-    color: #2281a7;
-    margin: 15px;
-}
-section button {
-    width: 30%;
-    margin-top: 20px;
+#info button{
     padding: 15px;
-    font-weight: 700;
+    width: 25%;
     border: none;
-    border-radius: 10px;
-    color: #fff;
-    background-color: #0d3999;
-    box-shadow: 0px 3px 8px 0px #1d1d1d8f;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 1em;
 }
-section button:hover{
+#btComprar{
+    background-color: #00688b;
+    color: #ffffff;
+}
+#btVermais{
+    background-color: #cd3700;
+    color: #ffffff;
+}
+#info p {
+    color: #03a89e;
+}
+#btComprar:hover{
     background-color: #2281a7;
 }
-footer{
+#btVermais:hover{
+    background-color: #e4440a;
+}
+#redes{
     float: left;
-    width: 100%;
-    color: #000;
-    text-align: center;
+    width: 100px;
 }
