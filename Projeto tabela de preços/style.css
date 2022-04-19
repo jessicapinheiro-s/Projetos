@@ -2,3 +2,76 @@
     margin: 0px;
     padding:0px ;
 }
+:root {
+    --yellow: #ffcc29;
+    --blue: #1d539e;
+    --gray: #828799;
+    --page-background: #f9fbfc;
+}
+body{
+    font: normal 1rem Arial;
+    background-color: var(--page-background);
+} 
+.high{
+    height: 300px;
+    background-color: var(--blue);
+}
+.boxOne{
+    width: 100%;
+    display: inline-flex;
+}
+.box{
+    margin: auto;
+    width: 300px;
+    height: 450px;
+    border: solid red 1px;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+.high p, h1 {
+    color: #ffffff;
+    text-align: center;
+}
+
+.box h1, p{
+    color: black;
+    text-align: left;
+}
+p, h2{
+    margin-bottom: 25px;
+}
+hr{
+    width: 100%;
+}
+#cabeçalhoBox {
+    width: 100%;
+    border-radius: 8px 8px 0px 0px;
+    background-color: var(--yellow);
+}
+#btPlanofree{
+    width: 300px;
+    margin-top: 130px;
+    padding: 10px;
+    border-radius: 8px;
+    border: var(--blue) solid 1px;
+    color: var(--blue);
+    background-color: #ffffff;
+}
+#btPlanobasico{
+    width: 300px;
+    margin-top: 65px;
+    padding: 10px;
+    border-radius: 8px;
+    border: var(--blue) solid 1px;
+    color: #ffffff;
+    background-color: var(--blue);
+}
+#btPlanoProfissional{
+    width: 300px;
+    padding: 10px;
+    border-radius: 8px;
+    border: var(--blue) solid 1px;
+    color: var(--blue);
+    background-color: #ffffff;
+}
