@@ -1,57 +1,70 @@
-*{
-    margin: 0px;
-    padding:0px ;
-}
 :root {
     --yellow: #ffcc29;
     --blue: #1d539e;
     --gray: #828799;
-    --page-background: #f9fbfc;
+    --page-background: #f3f3f3;
 }
-body{
-    font: normal 1rem Arial;
-    background-color: var(--page-background);
-} 
-.high{
-    height: 300px;
+.cabecalhoContent {
+    width: 100%;
+    text-align: center;
+    height: 400px;
+    position: absolute;
     background-color: var(--blue);
 }
-.boxOne{
-    width: 100%;
-    display: inline-flex;
-}
-.box{
-    margin: auto;
-    width: 300px;
-    height: 450px;
-    border: solid red 1px;
-    padding: 30px;
-    background-color: #ffffff;
-    border-radius: 10px;
-}
-.high p, h1 {
+.cabecalhoContent h1{
+    margin-top: 80px;
+    margin-bottom: 20px;
     color: #ffffff;
-    text-align: center;
 }
-
-.box h1, p{
-    color: black;
-    text-align: left;
+.cabecalhoContent p{
+    color: #e0e0e0 ;
 }
-p, h2{
-    margin-bottom: 25px;
-}
-hr{
+.boxPrincipalcontent{
+    position: absolute;
     width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 180px;
 }
-#cabeçalhoBox {
+.box, .boxOne, .boxTwo{
+    position: relative;
+    width: 350px;
+    height: 480px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+.headProfissional, .headFree, .headBasico {
+    background-color: #df1717;
     width: 100%;
+    color: #ffffff;
     border-radius: 8px 8px 0px 0px;
-    background-color: var(--yellow);
 }
-#btPlanofree{
+.headProfissional p, .headBasico p, .headFree p{
+    padding: 15px;
+}
+.headFree{
+    background-color: #6d9e1d;
+}
+.headBasico{
+    background-color: var(--yellow);
+    color: #000;
+}
+h2{
+    font-size: 2rem;
+}
+.content{
+    padding: 30px;
+}
+.content p {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+#btPlanofree, #btPlanoProfissional{
     width: 300px;
-    margin-top: 130px;
     padding: 10px;
     border-radius: 8px;
     border: var(--blue) solid 1px;
@@ -60,18 +73,16 @@ hr{
 }
 #btPlanobasico{
     width: 300px;
-    margin-top: 65px;
+    margin-top: 70px;
     padding: 10px;
     border-radius: 8px;
     border: var(--blue) solid 1px;
     color: #ffffff;
     background-color: var(--blue);
+} 
+#btPlanofree{
+    margin-top: 125px;
 }
 #btPlanoProfissional{
-    width: 300px;
-    padding: 10px;
-    border-radius: 8px;
-    border: var(--blue) solid 1px;
-    color: var(--blue);
-    background-color: #ffffff;
+    margin-top: 15px;
 }

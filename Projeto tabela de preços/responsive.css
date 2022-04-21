@@ -1,0 +1,9 @@
+@media screen and (max-width: 800px) {
+    .boxPrincipalcontent{
+        display: block;
+    }
+    .box, .boxOne, .boxTwo{
+        margin-bottom: 20px;
+        margin-top: 30px;
+    }
+}

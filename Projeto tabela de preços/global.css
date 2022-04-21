@@ -1,0 +1,8 @@
+*{
+    margin: 0px;
+    padding:0px ;
+}
+body{
+    font: normal 1rem Arial;
+    background-color: var(--page-background);
+} 
