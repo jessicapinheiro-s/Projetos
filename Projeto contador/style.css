@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+}
+.contador{
+    font-weight: 600;
+    text-align: center;
+    font-size: 2rem;
+}
+.allContador{
+    width: 500px;
+    margin: auto;
+    margin-top: 20px;
+    border: 1px grey solid;
+}
+.allContador p {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.bt{
+    width: 50%;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    text-align: center;
+}
+button{
+    display: inline;
+    width: 45%;
+    border: none;
+    padding: 5px;
+    border-radius: 8px;
+}
