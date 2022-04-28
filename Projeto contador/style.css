@@ -8,6 +8,8 @@ body{
     font-size: 1rem;
 }
 .contador{
+    width: 150px;
+    margin: auto;
     font-weight: 600;
     text-align: center;
     font-size: 2rem;
@@ -16,7 +18,8 @@ body{
     width: 500px;
     margin: auto;
     margin-top: 20px;
-    border: 1px grey solid;
+    border: 1px rgb(241, 241, 241) solid;
+    box-shadow: 0px 3px 3px 0px rgba(187, 180, 180, 0.363);
 }
 .allContador p {
     text-align: center;
@@ -33,11 +36,33 @@ body{
 .btReco{
     display: block;
     text-align: center;
+    margin-bottom: 20px;
 }
 button{
     display: inline;
     width: 45%;
     border: none;
-    padding: 5px;
+    padding: 8px;
     border-radius: 8px;
+}
+#btComeçar, #btParar, #btRecomeçar{
+    color: #fff;
+}
+#btComeçar{
+    background-color: #3e65e4;
+}
+#btParar{
+    background-color: #f11919;
+}
+#btRecomeçar{
+    background-color: #2cb82c;
+}
+#btComeçar:hover{
+    background-color: #1e41b6;
+}
+#btParar:hover{
+    background-color: #d41212;
+}
+#btRecomeçar:hover{
+    background-color: #259b25;
 }
