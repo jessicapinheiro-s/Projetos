@@ -18,16 +18,9 @@ function recomecar() {
     contadorRegre = 1000;
     contador = 0;
 }
-function horario () {
-    let resp = document.querySelector('span#horas');
 
-    let data = new Date ();
-    let hora = data.getHours;
-    let minutos = data.getMilliseconds;
-    let segundos = data.getSeconds;
 
-    resp.innerHTML =` ${hora}:${minutos}:${segundos}`
-}
+
 
 
 
