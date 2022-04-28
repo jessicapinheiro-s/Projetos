@@ -30,6 +30,10 @@ body{
     margin-bottom: 20px;
     text-align: center;
 }
+.btReco{
+    display: block;
+    text-align: center;
+}
 button{
     display: inline;
     width: 45%;
