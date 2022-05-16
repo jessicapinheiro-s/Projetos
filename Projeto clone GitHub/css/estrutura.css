@@ -1,0 +1,42 @@
+:root{
+    --bodybgd: #0D1117;
+    --fontcolor: #c9d1d9;
+    --user: #8b949e;
+    --header:  #161B22;
+    --links: #58a6ff;
+    --border: #66666665;
+}
+header{
+    color: #fff;
+    background-color: var(--header);
+}
+nav{
+    display: flex;
+    padding: 15px;
+}
+.subheader{
+    border-bottom: var(--border) solid 1px;
+    padding: 25px;
+    display: flex;
+}
+main{
+    width: 1280px;
+    margin: auto;
+    height: 1546px;
+}
+.subprincipal{
+    margin: auto;
+    width: 1216px;
+    height: 1546px;
+}
+.leftbar{
+    width: 296px;
+    float: left;
+}
+.principalbox{
+    float: left;
+    margin-top: 24px;
+    margin-left: 24px;
+    width: 70%;
+    height: 800px;
+}
