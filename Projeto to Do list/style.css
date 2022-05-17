@@ -8,13 +8,19 @@ body{
 }
 ul li {
     list-style: none;
+    color: black;
 }
-.resposta, .container{
+.container{
     width: 600px;
     margin: auto;
 }
 .resposta{
     text-align: center;
+}
+#lista{
+    width: 600px;
+    margin: auto;
+    box-shadow: 1px 1px 3px 3px #e4e4e47a;
 }
 .subContainer{
     width: 50%;
@@ -26,12 +32,10 @@ ul li {
 .container{
     box-shadow: 1px 1px 3px 3px #e4e4e47a;
 }
-input{
-    outline: none;
-}
 input, #btAdd, #btExcluir {
     padding: 8px;
     border: 1px solid #e4e4e4a9;
+    outline: none;
 }
 #btAdd{
     padding: 8px;

@@ -1,8 +1,10 @@
 let inTarefa = document.getElementById('inTarefa');
 let tarefa = inTarefa.value;
+
 function addTarefa (){
     let resp = document.querySelector('div.resposta');
-    if(tarefa == ''){
+    
+    if(tarefa == ' '){
         resp.innerHTML = `Preencha o campo corretamente ..`;
         inTarefa.focus();
     }else{
@@ -11,17 +13,16 @@ function addTarefa (){
         let txt = document.createTextNode(tarefa);
         let btExcluir = document.createElement('button');
         let txtBt = document.createTextNode('Excluir');
+        
         btExcluir.id = 'btExcluir';
     
         li.appendChild(txt);
         ul.appendChild(li);
         li.appendChild(btExcluir);
         btExcluir.appendChild(txtBt);
+
         inTarefa.value = '';
         inTarefa.focus();
     }
 
-}
-function excluir () {
-    tarefa.remove();
 }
