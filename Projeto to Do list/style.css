@@ -7,35 +7,21 @@ body{
     font-size: 1rem;
 }
 ul li {
-    border: 1px solid red;
+    border: 1px solid rgb(194, 194, 194);
+    box-shadow: 1px 1px 5px 3px rgba(204, 204, 204, 0.39);
     list-style: none;
     margin: 10px;
     padding: 8px;
 }
-.container{
-    width: 600px;
-    margin: auto;
-}
 .resposta{
     text-align: center;
+}
+#inTarefa{
+    width: 75%;
 }
 #checkbox, #btExcluir{
     margin-right: 20px;
     margin-left: 20px;
-}
-#lista{
-    width: 600px;
-    margin: auto;
-    margin-top: 20px;
-}
-.subContainer{
-    width: 50%;
-    margin: auto;
-    text-align: center;
-    padding: 20px;
-}
-.container{
-    box-shadow: 1px 1px 3px 3px #e4e4e47a;
 }
 input, #btAdd, #btExcluir {
     padding: 8px;
@@ -49,6 +35,10 @@ input, #btAdd, #btExcluir {
 #btExcluir{
     padding: 8px;
     float: right;
-    margin-top: -7px;
+    margin-top: -8px;
 
+}
+#btExcluir:hover{
+    background-color: brown;
+    color: #fff;
 }
