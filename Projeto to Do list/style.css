@@ -8,7 +8,6 @@ body{
 }
 ul li {
     list-style: none;
-    color: black;
 }
 .container{
     width: 600px;
@@ -17,9 +16,14 @@ ul li {
 .resposta{
     text-align: center;
 }
+#checkbox{
+    margin-right: 20px;
+    margin-left: 20px;
+}
 #lista{
     width: 600px;
     margin: auto;
+    margin-top: 20px;
     box-shadow: 1px 1px 3px 3px #e4e4e47a;
 }
 .subContainer{
@@ -27,7 +31,6 @@ ul li {
     margin: auto;
     text-align: center;
     padding: 20px;
-
 }
 .container{
     box-shadow: 1px 1px 3px 3px #e4e4e47a;
@@ -42,5 +45,5 @@ input, #btAdd, #btExcluir {
     width: 40px;
 }
 #btExcluir{
-    margin-left: 10px ;
+    margin-left: 20px;
 }
