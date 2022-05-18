@@ -1,45 +1,41 @@
 *{
-    margin: 0px;
-    padding: 0px;    
+  margin: 0px;
+  padding: 0px;    
 }
 body{
-    font-family: monospace;;
+  font-family: monospace;;
 }
 h1{
-    text-align: center;
-    font-weight: normal;
+  text-align: center;
+  font-weight: normal;
 }
 .sideBar{
-    float:right;
-    border: #65b5f6 1px solid;
-    width: 160px;
-    text-align: center;
-
+  float:right;
+  width: 170px;
+  text-align: center;
 }
 nav ol, nav li{
-    list-style: none;
+  list-style: none;
 }
-
 #btMenu{
-    margin: auto;
-    color: #65b5f6;
-    background-color: transparent;
-    border: 1px solid #65b5f6;
-    border-radius: 4px;
-    padding: 16px;
-    width: 120px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: all 0.2s ease-in-out;
+  margin: auto;
+  color: #65b5f6;
+  background-color: transparent;
+  border: 1px solid #65b5f6;
+  border-radius: 4px;
+  padding: 16px;
+  width: 130px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
 }
-  
 #btMenu:focus {
-    animation: swing 1s ease;
-    animation-iteration-count: 1;
+  animation: swing 1s ease;
+  animation-iteration-count: 1;
 }
 #btMenu:hover{
-    width:140px;
-    right: 100%;
+  width:140px;
+  right: 100%;
 }
   
 @keyframes swing {  /*animação*/

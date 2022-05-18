@@ -6,6 +6,7 @@
     max-width: 160px;
     box-shadow: none;
     background: none;
+    border: #0093E9 solid 1px;
 }
 .card-side {
     height: 10rem;
@@ -17,7 +18,8 @@
     left: 0;
     width: 80%;
     padding:2rem;
-    color: white
+    color: white;
+    border: #0093E9 solid 1px;
 }
 .card-side.back {
     transform: rotateY(-180deg); /*onde define a rotação pra tras*/
