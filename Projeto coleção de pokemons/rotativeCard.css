@@ -21,9 +21,10 @@
 }
 .card-side.back {
     transform: rotateY(-180deg); /*onde define a rotação pra tras*/
-    background-image: url(img/garchomp.png);
+    background-image: url(img/umbreon.png);
     background-position: center;
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
   
 .card-side.front {
