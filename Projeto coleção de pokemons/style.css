@@ -10,27 +10,36 @@ h1{
     font-weight: normal;
 }
 .sideBar{
-    border: 1px solid red;
     float:right;
+    border: #65b5f6 1px solid;
+    width: 160px;
+    text-align: center;
+
 }
 nav ol, nav li{
     list-style: none;
 }
 
 #btMenu{
+    margin: auto;
     color: #65b5f6;
     background-color: transparent;
     border: 1px solid #65b5f6;
     border-radius: 4px;
     padding: 16px;
-    width: 80px;
+    width: 120px;
+    font-weight: bold;
     cursor: pointer;
     transition: all 0.2s ease-in-out;
-  }
+}
   
 #btMenu:focus {
     animation: swing 1s ease;
     animation-iteration-count: 1;
+}
+#btMenu:hover{
+    width:140px;
+    right: 100%;
 }
   
 @keyframes swing {  /*animação*/
