@@ -1,11 +1,12 @@
 .typewriter-effect {
     display: flex;
     justify-content: center;
-    font-family: monospace;
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 .typewriter-effect > .text {
     max-width: 0;
-    animation: typing 3s steps(var(--characters)) infinite; /*define o tempo da animação*/
+    animation: typing 6s steps(var(--characters)) infinite; /*define o tempo da animação*/
     white-space: nowrap;
     overflow: hidden;
 }

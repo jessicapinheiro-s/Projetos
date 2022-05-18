@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;    
+}
+body{
+    font-family: monospace;;
+}
+h1{
+    text-align: center;
+    font-weight: normal;
+}
+.sideBar{
+    border: 1px solid red;
+    float:right;
+}
+nav ol, nav li{
+    list-style: none;
+}
+
+#btMenu{
+    color: #65b5f6;
+    background-color: transparent;
+    border: 1px solid #65b5f6;
+    border-radius: 4px;
+    padding: 16px;
+    width: 80px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+#btMenu:focus {
+    animation: swing 1s ease;
+    animation-iteration-count: 1;
+}
+  
+@keyframes swing {  /*animação*/
+    15% {
+      transform: translateX(5px);
+    }
+    30% {
+      transform: translateX(-5px);
+    }
+    50% {
+      transform: translateX(3px);
+    }
+    65% {
+      transform: translateX(-3px);
+    }
+    80% {
+      transform: translateX(2px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+}
