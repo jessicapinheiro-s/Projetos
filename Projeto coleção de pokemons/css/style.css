@@ -14,8 +14,18 @@ h1{
   width: 170px;
   text-align: center;
 }
-nav ol, nav li{
+nav ol, nav li, button a{
   list-style: none;
+  text-decoration: none;
+}
+nav li{
+  margin-bottom: 10px;
+}
+nav button{
+  box-shadow: grey 1px 1px 5px 0px;
+}
+button a{
+  color: #000;
 }
 #btMenu{
   margin: auto;
