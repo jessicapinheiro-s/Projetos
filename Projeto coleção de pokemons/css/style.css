@@ -3,7 +3,7 @@
   padding: 0px;    
 }
 body{
-  font-family: monospace;;
+  font-family: monospace;
 }
 h1{
   text-align: center;
@@ -22,7 +22,7 @@ nav li{
   margin-bottom: 10px;
 }
 nav button{
-  box-shadow: grey 1px 1px 5px 0px;
+  box-shadow: rgba(128, 128, 128, 0.548) 1px 1px 5px 0px;
 }
 button a{
   color: #000;
