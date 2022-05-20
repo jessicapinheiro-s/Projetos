@@ -22,7 +22,7 @@ nav li{
   margin-bottom: 10px;
 }
 nav button{
-  box-shadow: rgba(128, 128, 128, 0.548) 1px 1px 5px 0px;
+  box-shadow: #8080808c 1px 1px 5px 0px;
 }
 button a{
   color: #000;
@@ -31,7 +31,7 @@ button a{
   margin: auto;
   color: #65b5f6;
   background-color: transparent;
-  border: 1px solid #65b5f6;
+  border: none;
   border-radius: 4px;
   padding: 16px;
   width: 130px;
