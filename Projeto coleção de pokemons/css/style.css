@@ -1,9 +1,9 @@
-:root{
-  --ColorPikachu : #FFD53C;
-}
 *{
   margin: 0px;
   padding: 0px;    
+}
+:root{
+  --ColorPikachu : #FFD53C;
 }
 body{
   font-family: monospace;
@@ -18,25 +18,25 @@ header{
   font-weight: normal;
   background-color: var(--ColorPikachu);
 }
+.grupoCard{
+  width:88%; 
+  float: left;
+} 
 .rightBar{
   float: right;
-  border: 1px red solid;
 }
 .sideBar{
   width: 170px;
   text-align: center;
-  border: 1px red solid;
 }
 .efeito-flutuante{
   float: right;
   position: fixed;
   margin-top: 200px;
-  border: 1px red solid;
 }
 .efeito-flutuante  img {
   width: 150px;
   animation: float 6s ease-in-out infinite;
-  border: 1px red solid;
 }
 nav ol, nav li, button a{
   list-style: none;

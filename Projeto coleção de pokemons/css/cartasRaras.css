@@ -2,13 +2,22 @@
     margin: 0px;
     padding: 0px;    
 }
+:root{
+    --ColorPikachu : #FFD53C;
+}
 body{
     font-family: monospace;
 }
-h1{
+header{
+    width: 40%;
+    margin: auto;
+    margin-top: 20px;
+    box-shadow: 3px 3px 3px 0px;
+    border: #000 solid 3px;
     text-align: center;
     font-weight: normal;
-}
+    background-color: var(--ColorPikachu);
+  }
 .card {
     perspective: 150rem;
     position: relative;
@@ -18,7 +27,6 @@ h1{
     max-width: 160px;
     box-shadow: none;
     background: none;
-    border: #4e5558 solid 1px;
 }
 .card-side {
     height: 10rem;
@@ -31,7 +39,6 @@ h1{
     width: 80%;
     padding:2rem;
     color: white;
-    border: #0093E9 solid 1px;
 }
 .card-side.back {
     transform: rotateY(-180deg); /*onde define a rotação pra tras*/
@@ -54,14 +61,19 @@ h1{
 }
 .collectionColumn{
     display: flex;
-    border: #0093E9 1px solid;
     margin-bottom: 20px;
     margin-top: 20px;
+    margin-left: 20px;
 }
 a{
+    width: 130px;
+    padding: 16px;
     text-decoration: none;
-    color: #0093E9;
-    padding: 10px;
+    border: #000 solid 2px;
+    border-radius: 4px;
     box-shadow: #8080808c 1px 1px 5px 0px;
-    
+    background-color: var(--ColorPikachu);
+    box-shadow: 3px 3px 3px 0px;
+    font-weight: bold;
+    cursor: pointer;
 }

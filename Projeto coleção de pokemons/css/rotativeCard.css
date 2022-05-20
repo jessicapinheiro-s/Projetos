@@ -75,6 +75,6 @@
 }
 .collectionColumn{
     width: 17%;
+    margin-left: 30px;
     display: inline-block;
-    border: #0093E9 1px solid;
 }
