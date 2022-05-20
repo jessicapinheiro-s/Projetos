@@ -23,13 +23,13 @@
 }
 .card-side.back {
     transform: rotateY(-180deg); /*onde define a rotação pra tras*/
-    background-image: url(img/umbreon.png);
+    background-image: url(../img/umbreon.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
 }
 .card-side.front {
-    background-image: url(img/pokemoncostas.png);
+    background-image: url(../img/pokemoncostas.png);
     background-position: center;
     background-size: cover;
 }
@@ -38,34 +38,34 @@
     background-size: contain;
 }
 .card-side.back.umbreon{
-    background-image: url(img/umbreon.png);
+    background-image: url(../img/umbreon.png);
 }
 .card-side.back.genesect{
-    background-image: url(img/genesect.png);
+    background-image: url(../img/genesect.png);
 }
 .card-side.back.kindler{
-    background-image: url(img/kindler.png);
+    background-image: url(../img/kindler.png);
 }
 .card-side.back.volcanion{
-    background-image: url(img/volcanion.jpg);
+    background-image: url(../img/volcanion.jpg);
 }
 .card-side.back.shaymin{
-    background-image: url(img/shaymin.png);
+    background-image: url(../img/shaymin.png);
 }
 .card-side.back.garchomp{
-    background-image: url(img/garchomp.png);
+    background-image: url(../img/garchomp.png);
 }
 .card-side.back.simisear{
-    background-image: url(img/simisear.png);
+    background-image: url(../img/simisear.png);
 }
 .card-side.back.sceptile{
-    background-image: url(img/sceptile.jpg);
+    background-image: url(../img/sceptile.jpg);
 }
 .card-side.back.whimsicott{
-    background-image: url(img/whimsicott.png);
+    background-image: url(../img/whimsicott.png);
 }
 .card-side.back.phanpy{
-    background-image: url(img/phanpy.jpg);
+    background-image: url(../img/phanpy.jpg);
 }
 
 .card:hover .card-side.front {
