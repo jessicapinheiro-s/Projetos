@@ -1,3 +1,6 @@
+:root{
+  --ColorPikachu : #FFD53C;
+}
 *{
   margin: 0px;
   padding: 0px;    
@@ -5,22 +8,35 @@
 body{
   font-family: monospace;
 }
-h1{
+header{
+  width: 40%;
+  margin: auto;
+  margin-top: 20px;
+  box-shadow: 3px 3px 3px 0px;
+  border: #000 solid 3px;
   text-align: center;
   font-weight: normal;
+  background-color: var(--ColorPikachu);
 }
 .rightBar{
   float: right;
-  border: 1px solid red;
+  border: 1px red solid;
 }
 .sideBar{
   width: 170px;
   text-align: center;
+  border: 1px red solid;
 }
 .efeito-flutuante{
   float: right;
   position: fixed;
   margin-top: 200px;
+  border: 1px red solid;
+}
+.efeito-flutuante  img {
+  width: 150px;
+  animation: float 6s ease-in-out infinite;
+  border: 1px red solid;
 }
 nav ol, nav li, button a{
   list-style: none;
@@ -37,9 +53,9 @@ button a{
 }
 #btMenu{
   margin: auto;
-  color: #65b5f6;
-  background-color: transparent;
-  border: none;
+  background-color: var(--ColorPikachu);
+  box-shadow: 3px 3px 3px 0px;
+  border: #000 solid 2px;
   border-radius: 4px;
   padding: 16px;
   width: 130px;
@@ -84,7 +100,4 @@ button a{
 		transform:translatey(-20px)
 	}
 }
-.efeito-flutuante  img {
-  width: 150px;
-  animation: float 6s ease-in-out infinite;
-}
+
