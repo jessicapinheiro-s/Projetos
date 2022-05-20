@@ -14,6 +14,14 @@ h1{
   width: 170px;
   text-align: center;
 }
+.efeito-flutuante img{
+  float: right;
+  border: 1px solid red;
+}
+.efeito-flutuante{
+  float: right;
+  border: 1px solid rgb(77, 74, 74);
+}
 nav ol, nav li, button a{
   list-style: none;
   text-decoration: none;
@@ -67,4 +75,16 @@ button a{
     100% {
       transform: translateX(0);
     }
+}
+@keyframes float{
+	0%,100%{
+		transform:translatey(0)
+	}
+	50%{
+		transform:translatey(-20px)
+	}
+}
+.efeito-flutuante  img {
+  width: 150px;
+  animation: float 6s ease-in-out infinite;
 }
