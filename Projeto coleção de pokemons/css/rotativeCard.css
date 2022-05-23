@@ -1,4 +1,10 @@
-.card {
+.collectionColumn{
+    width: 17%;
+    margin-left: 25px;
+    margin-right: 5px ;
+    display: inline-block;
+}
+.carta {
     perspective: 150rem;
     position: relative;
     height: 15rem;
@@ -8,6 +14,7 @@
     background: none;
 }
 .card-side {
+    margin: auto;
     height: 10rem;
     border-radius: 15px;
     transition: all 0.8s ease;
@@ -65,16 +72,10 @@
 .card-side.back.phanpy{
     background-image: url(../img/phanpy.jpg);
 }
-
-.card:hover .card-side.front {
+.carta:hover .card-side.front {
     transform: rotateY(180deg);  /*onde define a rotação pra frente*/
 }
-
-.card:hover .card-side.back {
+.carta:hover .card-side.back {
     transform: rotateY(0deg);
 }
-.collectionColumn{
-    width: 17%;
-    margin-left: 30px;
-    display: inline-block;
-}
+

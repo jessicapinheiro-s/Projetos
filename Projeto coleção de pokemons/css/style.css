@@ -1,26 +1,9 @@
-*{
-  margin: 0px;
-  padding: 0px;    
-}
-:root{
-  --ColorPikachu : #FFD53C;
-}
-body{
-  font-family: monospace;
-}
-header{
-  width: 40%;
-  margin: auto;
-  margin-top: 20px;
-  box-shadow: 3px 3px 3px 0px;
-  border: #000 solid 3px;
-  text-align: center;
-  font-weight: normal;
-  background-color: var(--ColorPikachu);
+main{
+  display: flex;
 }
 .grupoCard{
-  width:88%; 
-  float: left;
+  width: 85%; 
+  margin: auto;
 } 
 .rightBar{
   float: right;
@@ -45,33 +28,29 @@ nav ol, nav li, button a{
 nav li{
   margin-bottom: 10px;
 }
-nav button{
-  box-shadow: #8080808c 1px 1px 5px 0px;
+#bts{
+  float: left;
 }
-button a{
-  color: #000;
+#btFav{
+  padding: 8px;
+  outline: none;
+  margin-top: 230px;
+  background-color: var(--ColorPikachu);
+}
+#btFav:hover{
+  background-color: #eec11e;
 }
 #btMenu{
   margin: auto;
-  background-color: var(--ColorPikachu);
-  box-shadow: 3px 3px 3px 0px;
-  border: #000 solid 2px;
-  border-radius: 4px;
   padding: 16px;
   width: 130px;
-  font-weight: bold;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
-}
-#btMenu:focus {
-  animation: swing 1s ease;
-  animation-iteration-count: 1;
 }
 #btMenu:hover{
   width:140px;
   right: 100%;
 }
-  
 @keyframes swing {  /*animação*/
     15% {
       transform: translateX(5px);
