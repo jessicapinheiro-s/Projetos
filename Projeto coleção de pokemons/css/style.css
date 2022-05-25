@@ -45,6 +45,12 @@
 .card:hover h3, .card:focus-within h3 {
   padding: 8px 12px 0;
 }
+.collectionColumn{
+  width: 17%;
+  margin-left: 25px;
+  margin-right: 5px ;
+  display: inline-block;
+}
 main{
   display: flex;
 }
