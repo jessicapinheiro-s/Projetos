@@ -1,3 +1,11 @@
+header{
+    width: 100%;
+}
+nav {
+    padding: 30px;
+    text-align:  right;
+    box-shadow: 0px 0px 8px 0px #d1d1d1;
+}
 ul, li, a {
     list-style: none;
     text-decoration: none;
@@ -6,29 +14,13 @@ ul, li, a {
     margin: 10px;
     font-weight: 600;
 }
-nav {
-    width: 100%;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    text-align:  right;
-    box-shadow: 0px 0px 8px 0px #d1d1d1;
+section{
+    display: flex;
 }
-
-#foto{
-    float: right;
+#foto, #informacoes{
     width: 50%;
-    height: 641px;
-}
-#foto img{
-    float: left;
-}
-#informacoes{
-    float: left;
-    width: 50%;
-    height: 641px;
 }
 #info{
-    float: right;
     margin: 30px;
 }
 #info h1{
@@ -43,7 +35,8 @@ nav {
 }
 #info button{
     padding: 15px;
-    width: 25%;
+    width: 20%;
+    margin-right: 15px;
     border: none;
     border-radius: 8px;
     font-weight: 700;
@@ -66,7 +59,10 @@ nav {
 #btVermais:hover{
     background-color: #e4440a;
 }
-#redes{
-    float: left;
-    width: 100px;
+footer{
+    width: 100%;
 }
+footer img{
+    width: 80px;
+}
+
