@@ -12,13 +12,11 @@ function enviar() {
     var email = inEmail.value;
     var linguagem = inLinguagem.value;
 
-    if (inNumero == "" || isNaN(numero)) {
+    if (inNumero == " " || isNaN(numero)) {
         ("Digite o numero corretamente");
         inNumero.focus();
         return;
     }
-
-
     outResposta.textContent = "Seu formulário foi enviado com sucesso!";
 }
 var btEnviar = document.getElementById("btEnviar");
