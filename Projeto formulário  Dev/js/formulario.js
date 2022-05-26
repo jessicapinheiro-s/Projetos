@@ -12,12 +12,14 @@ function enviar() {
     var email = inEmail.value;
     var linguagem = inLinguagem.value;
 
-    if (inNumero == " " || isNaN(numero)) {
-        ("Digite o numero corretamente");
-        inNumero.focus();
+    if (numero == '' || nome == '' || email == '' || isNaN(numero)) {
+        alert("Preencha todos os campos..");
+        inNome.focus();
         return;
+    }else{
+        outResposta.textContent = "Seu formulário foi enviado com sucesso!";
     }
-    outResposta.textContent = "Seu formulário foi enviado com sucesso!";
+
 }
 var btEnviar = document.getElementById("btEnviar");
 btEnviar.addEventListener("click", enviar)

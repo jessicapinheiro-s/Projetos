@@ -24,7 +24,7 @@ section {
     border-radius: 8px;
 }
 .area-formulario{
-    width: 40%;
+    width: 45%;
 }
 .areaImg{
     width: 50%;
@@ -45,6 +45,9 @@ input{
 .area-email, .area-linguagem, .area-numero, .area-radio, .area-opcao, .area-name, .area-botao{
 	width: 100%;
     margin-bottom: 15px;
+}
+.area-opcao p{
+    margin-bottom: 10px;
 }
 .area-botao{
     text-align: right;
