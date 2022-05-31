@@ -9,20 +9,24 @@
 </head>
 <body>
     <section>
-        <div class="titleandDesc">
-            <h1>Calculadora IMC</h1>
-            <p>Adicione como (ex: 1,60)</p>
+        <div class="allContent">
+            <div class="titleandDesc">
+                <h1>Calculadora IMC</h1>
+                <p>Adicione como (ex: 1,60)</p>
+            </div>
+            <div class="entrada">
+                <input type="number" name="altura" id="inAltura" placeholder=" Altura">
+                <input type="number" name="idade" id="inPeso" placeholder=" Peso">
+            </div>
+            <div class="botoes">
+                <button id="btCalcular">Calcular</button>
+                <button id="btLimpar">Limpar</button>
+            </div>
         </div>
-        <div class="entrada">
-            <input type="number" name="altura" id="inAltura" placeholder=" Altura">
-            <input type="number" name="idade" id="inPeso" placeholder=" Peso">
-        </div>
-        <div class="botoes">
-            <button id="btCalcular">Calcular</button>
-            <button id="btLimpar">Limpar</button>
-        </div>
-        <div class="resposta"></div>
     </section>
+    <div class="resposta">
+
+    </div>
     <script src="app.js"></script>
 </body>
 </html>

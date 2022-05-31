@@ -29,7 +29,6 @@ function calcularPeso (){
             resp.innerHTML = `<p>Seu IMC é: ${arredondado}</p>`;
             resp.innerHTML += `classificação: OBESIDADE GRAVE`
         }
-        
     }
 }
 let btCalcular = document.getElementById('btCalcular');
