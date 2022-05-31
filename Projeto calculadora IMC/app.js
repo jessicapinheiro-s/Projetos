@@ -12,18 +12,22 @@ function calcularPeso (){
     }else{
         let calculoIMC = peso / (altura * altura); 
         let arredondado = parseFloat(calculoIMC.toFixed(2));
-        resp.innerHTML = `${arredondado}`;
-        
+
         if(arredondado < 18.5){
-            resp.innerHTML = `classificação: MAGREZA`
+            resp.innerHTML = `<p>Seu IMC é: ${arredondado}</p> `;
+            resp.innerHTML += `classificação: MAGREZA`
         }else if(arredondado == 18.5 || arredondado <= 24.9){
-            resp.innerHTML = `classificação: NORMAL`
+            resp.innerHTML = `<p>Seu IMC é: ${arredondado}</p>`;
+            resp.innerHTML += `classificação: NORMAL`
         }else if(arredondado == 25.0 || arredondado <= 29.9){
-            resp.innerHTML = `classificação: SOBREPESO`
+            resp.innerHTML = `<p>Seu IMC é: ${arredondado}</p>`;
+            resp.innerHTML += `classificação: SOBREPESO`
         }else if(arredondado == 30.0 || arredondado <= 39.9){
-            resp.innerHTML = `classificação: OBESIDADE`
+            resp.innerHTML = `<p>Seu IMC é: ${arredondado}</p>`;
+            resp.innerHTML += `classificação: OBESIDADE`
         }else if(arredondado > 40.0){
-            resp.innerHTML = `classificação: OBESIDADE GRAVE`
+            resp.innerHTML = `<p>Seu IMC é: ${arredondado}</p>`;
+            resp.innerHTML += `classificação: OBESIDADE GRAVE`
         }
         
     }
