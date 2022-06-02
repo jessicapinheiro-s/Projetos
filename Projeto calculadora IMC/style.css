@@ -12,10 +12,9 @@ body{
 .efeito-flutuante{
     margin: 0 auto;
     margin-top: 60px;
-    width: 50%;
-    animation: float 6s ease-in-out infinite;
+    max-width: 500px;
 }
-#imgFlutuante{
+.efeito-flutuante img{
     width: 200px;
     animation: float 6s ease-in-out infinite;
 }
