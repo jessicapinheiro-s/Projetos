@@ -6,14 +6,16 @@ body{
     font-family: monospace;
     font-size: 1rem;
 }
-section{
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 15px;
-    box-shadow: 1px 3px 3px 1px #ebebeb;
-}
 .allContent, section, .titleandDesc, .entrada, .botoes{
     margin: 0 auto;
+}
+section{
+    max-width: 500px;
+    background-color: darkcyan;
+    padding: 15px;
+    margin-top: 40px;
+    border-radius: 8px;
+    box-shadow: 1px 3px 3px 1px #bbbbbb;
 }
 .allContent{
     width: 70%;
@@ -22,6 +24,7 @@ section{
     width: 80%;
     text-align: center;
     padding: 10px;
+    color: #fff;
 }
 .botoes button{
     width: 35%;
@@ -34,9 +37,28 @@ input{
     border: none;
     outline: none;
     padding: 5px;
+    border-radius: 8px;
     margin-bottom: 10px;
     border-bottom: 1px solid #e7e7e7;
     width: 80%;
+}
+#btCalcular, #btLimpar{
+    border: none;
+    padding: 8px;
+    border-radius: 8px;
+    font-weight: 600;
+}
+#btCalcular{
+    background-color: salmon;
+}
+#btLimpar{
+    background-color: goldenrod;
+}
+#btLimpar:hover{
+    background-color: #ffc83d;
+}
+#btCalcular:hover{
+    background-color: #ff9286
 }
 .resposta{
     width: 40%;
