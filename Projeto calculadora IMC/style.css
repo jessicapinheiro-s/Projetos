@@ -9,6 +9,24 @@ body{
 .allContent, section, .titleandDesc, .entrada, .botoes{
     margin: 0 auto;
 }
+.efeito-flutuante{
+    margin: 0 auto;
+    margin-top: 60px;
+    width: 50%;
+    animation: float 6s ease-in-out infinite;
+}
+#imgFlutuante{
+    width: 200px;
+    animation: float 6s ease-in-out infinite;
+}
+@keyframes float{
+	0%,100%{
+		transform:translatey(0)
+	}
+	50%{
+		transform:translatey(-20px)
+	}
+}
 section{
     max-width: 500px;
     background-color: darkcyan;
