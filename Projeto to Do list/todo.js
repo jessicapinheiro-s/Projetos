@@ -31,18 +31,20 @@ function excluir() {
     let checkbox = document.getElementsByTagName('input');
     let li = document.getElementsByTagName('li');
     let lista = document.getElementById('lista');
-    let tam = checkbox.length;
-
+    let tam = li.length;
+    let tamc = checkbox.length + 1;
+    alert(tamc);
+    alert(tam);
 
     var aux = -1;
 
-    for (let i = 0; i < tam; i++) {
+    for (var i = 0; i < tamc; i++) {
         if (checkbox[i].checked) {
-            aux = i;
-            lista.removeChild(li[0]);
+            aux = i - 1;
+            lista.removeChild(li[aux]);
             break;
         }
-
+        
     }
 
 }
