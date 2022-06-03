@@ -27,14 +27,15 @@ function addTarefa() {
     inTarefa.value = '';
     inTarefa.focus();
 }
+let btAdd = document.getElementById('btAdd');
+btAdd.addEventListener('click', addTarefa);
+
 function excluir() {
     let checkbox = document.getElementsByTagName('input');
     let li = document.getElementsByTagName('li');
     let lista = document.getElementById('lista');
-    let tam = li.length;
+
     let tamc = checkbox.length + 1;
-    alert(tamc);
-    alert(tam);
 
     var aux = -1;
 
@@ -44,7 +45,6 @@ function excluir() {
             lista.removeChild(li[aux]);
             break;
         }
-        
     }
 
 }
