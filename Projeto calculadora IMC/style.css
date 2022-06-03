@@ -6,12 +6,10 @@ body{
     font-family: monospace;
     font-size: 1rem;
 }
-.allContent, section, .titleandDesc, .entrada, .botoes{
+.allContent, section, .titleandDesc, .entrada, .botoes{ 
     margin: 0 auto;
 }
 .efeito-flutuante{
-    margin: 0 auto;
-    margin-top: 60px;
     max-width: 500px;
 }
 .efeito-flutuante img{
@@ -26,22 +24,31 @@ body{
 		transform:translatey(-20px)
 	}
 }
-section{
+.respContent{
+    display: flex;
+    justify-content: space-between;
     max-width: 500px;
-    background-color: darkcyan;
+    margin-top: 40px;
+    padding: 15px;
+}
+.resposta{
+    width: 45%;
+}
+.calculadora{
+    max-width: 500px;
     padding: 15px;
     margin-top: 40px;
     border-radius: 8px;
-    box-shadow: 1px 3px 3px 1px #bbbbbb;
+    border: solid 1px rgb(233, 233, 233);
+    box-shadow: 1px 3px 3px 1px #d8d8d8;
 }
 .allContent{
-    width: 70%;
+    width: 75%;
 }
 .titleandDesc, .entrada, .botoes{
     width: 80%;
     text-align: center;
     padding: 10px;
-    color: #fff;
 }
 .botoes button{
     width: 35%;
@@ -66,20 +73,14 @@ input{
     font-weight: 600;
 }
 #btCalcular{
-    background-color: salmon;
+    background-color: #6f9ff7;
 }
 #btLimpar{
-    background-color: goldenrod;
+    background-color: #ff6e78;
 }
 #btLimpar:hover{
-    background-color: #ffc83d;
+    background-color: #fc8e95;
 }
 #btCalcular:hover{
-    background-color: #ff9286
-}
-.resposta{
-    width: 40%;
-    text-align: center;
-    margin: 0 auto;
-    padding: 10px;
+    background-color: #93b8fd;
 }

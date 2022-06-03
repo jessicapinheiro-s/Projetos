@@ -5,7 +5,7 @@ let resp = document.querySelector('div.resposta');
 
 function calcularPeso (){
     let altura = Number(inAltura.value);
-    let peso = Number(inPeso.value);
+    let peso = Number(inPeso.value)
 
     if(altura == '' || peso == ''){
         resp.innerHTML = `Algum campo está vazio, preencha o campos corretamente ..`
