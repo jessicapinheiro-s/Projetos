@@ -28,11 +28,15 @@ input, #btAdd {
     border: 1px solid #e4e4e4a9;
     outline: none;
 }
-#btAdd{
+#btAdd, #btExcluir{
     padding: 8px;
     width: 40px;
+    border: none;
 }
-#btAdd:hover{
+#btExcluir{
+    width: 60px;
+}
+#btAdd:hover, #btExcluir{
     background-color: rgb(91, 77, 214);
     color: #fff;
 }
