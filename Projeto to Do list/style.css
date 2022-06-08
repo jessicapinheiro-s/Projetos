@@ -3,19 +3,17 @@
     padding: 0px;
 }
 body{
-    font-family: monospace;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 1rem;
+    color: #242424;
 }
 .container{
     width: 400px;
     margin: auto;
     margin-top: 40px;
-    border-radius: 8px;
-    background-color: #4f7c5a ;
-    box-shadow: 1px 3px 3px 1px #bebebe;
 }
 .subContainer{
-    width: 85%;
+    width: 90%;
     margin: auto;
     text-align: center;
     padding: 20px;
@@ -23,29 +21,27 @@ body{
 #lista{
     margin: auto;
     width: 350px;
-    margin-top: 20px;
 }
 ul li {
-    background-color: rgb(88, 160, 86);
     margin-bottom: 10px;
-    border-radius: 8px;
+    border-bottom: 1px solid rgb(189, 215, 253);
     list-style: none;
     padding: 8px;
-    box-shadow: 1px 3px 3px 1px #bebebe;
 }
-li:hover{
-    background-color: rgb(66, 143, 63); 
-}
-input{
+#inTarefa{
     padding: 8px;
     outline: none;
-    border: none;
+    border: 1px solid rgb(189, 215, 253);
+    width: 70%;
+}
+h1{
+    color: #474747;
 }
 h1, input, button{
     border-radius: 8px;
     margin-bottom: 10px;
 }
-li, h1, #btExcluir, #btAdd{
+#btExcluir, #btAdd{
     color: #fff;
 }
 .resposta{
@@ -56,19 +52,19 @@ li, h1, #btExcluir, #btAdd{
     margin-left: 20px;
 }
 #btExcluir, #btAdd{
-    background-color: rgb(255, 141, 34);
+    background-color: rgb(79, 119, 95);
     width: 100px;
     border: none;
     padding: 8px;
 }
 #btExcluir:hover{
-    background-color: rgb(230, 127, 32);
+    background-color: rgb(56, 83, 67);
 }
 #btAdd{
     width: 40px;
-    background-color: rgb(92, 153, 90);
+    background-color: rgb(0, 102, 255);
 }
 #btAdd:hover{
-    background-color: rgb(66, 143, 63); 
+    background-color: rgb(9, 84, 196); 
 }
 
