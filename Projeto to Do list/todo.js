@@ -2,13 +2,20 @@ function addTarefa() {
     let inTarefa = document.getElementById('inTarefa');
     let tarefa = inTarefa.value;
     let resp = document.querySelector('div.resposta');
+    let respost = document.getElementById("resposta");
 
-    while (tarefa == '') {
-        resp.innerHTML = `O campo está vazio, digite algo`
+    if (tarefa == '') {
+        resp.innerHTML = `O campo está vazio, digite algo`;
+        respost.style.backgroundColor = '#d12929';
+        respost.style.width = '300px';
+        respost.style.margin = '0 auto';
+        respost.style.color = '#fff';
+        respost.style.padding = '15px';
+        respost.style.borderRadius = '8px';
         inTarefa.focus();
         return;
     }
-
+    respost.style.backgroundColor = '#ffffff';
     resp.innerHTML = '';
 
     let lista = document.getElementById('lista');
@@ -46,7 +53,6 @@ function excluir() {
             break;
         }
     }
-
 }
 let btExcluir = document.getElementById('btExcluir');
 btExcluir.addEventListener('click', excluir);
