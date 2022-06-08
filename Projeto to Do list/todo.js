@@ -5,7 +5,7 @@ function addTarefa() {
     let respost = document.getElementById("resposta");
 
     if (tarefa == '') {
-        resp.innerHTML = `O campo está vazio, digite algo`;
+        resp.innerHTML = `O campo está vazio, digite algo..`;
         respost.style.backgroundColor = '#d12929';
         respost.style.width = '300px';
         respost.style.margin = '0 auto';
