@@ -41,7 +41,7 @@ h1, input, button{
     border-radius: 8px;
     margin-bottom: 10px;
 }
-#btExcluir, #btAdd{
+#btExcluir, #btExcluirTd, #btAdd{
     color: #fff;
 }
 .resposta{
@@ -51,7 +51,7 @@ h1, input, button{
     margin-right: 20px;
     margin-left: 20px;
 }
-#btExcluir, #btAdd{
+#btExcluir,#btExcluirTd, #btAdd{
     background-color: rgb(79, 119, 95);
     width: 100px;
     border: none;
@@ -59,6 +59,13 @@ h1, input, button{
 }
 #btExcluir:hover{
     background-color: rgb(56, 83, 67);
+}
+#btExcluirTd{
+    width: 170px;
+    background-color: rgb(209, 58, 58);
+}
+#btExcluirTd:hover{
+    background-color: rgb(163, 48, 28); 
 }
 #btAdd{
     width: 40px;
