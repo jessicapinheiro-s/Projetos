@@ -2,26 +2,33 @@
     margin: 0px;
     padding: 0px;
 }
-header{
-    color: #ffffff;
-    margin: 15px;
-    text-align: center;
+:root{
+    --bg-body-glass: linear-gradient(45deg, #291ec4,#d63bdb );
+    --bg-glass: linear-gradient( rgba(255,255,255,0.1), rgba(255,255,255,0.3) );
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1rem;
-    color: #474747;
-    background-color: #6666da;
+    background: var(--bg-body-glass);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    background-attachment: fixed;
+}
+header{
+    color: #ffffff;
+    margin: 15px;
+    text-align: center;
 }
 img{
     width: 100%;
 }
 section {
     margin: 0 auto;
-    background-color: #ffffff;
     max-width: 700px;
     padding: 20px;
     border-radius: 8px;
+    background: var(--bg-glass);
 }
 .area-formulario{
     width: 45%;
@@ -32,7 +39,6 @@ section {
 form{
     display: flex;
     justify-content: space-between;
-    border: solid 1px red;
 }
 input{
     border: none;
