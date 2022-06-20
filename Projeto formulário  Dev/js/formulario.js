@@ -1,6 +1,5 @@
 document.getElementById("btEnviar").addEventListener ('click', function(){
     var inNome = document.getElementById("inNome");
-    var inSobrenome = document.getElementById("inSobrenome");
     var inNumero = document.getElementById("inNumero");
     var inEmail = document.getElementById("inEmail");
     var outResposta = document.getElementById("outResposta");
