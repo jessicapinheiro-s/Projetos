@@ -19,7 +19,7 @@ img{
 section {
     margin: 0 auto;
     background-color: #ffffff;
-    width: 750px;
+    max-width: 700px;
     padding: 20px;
     border-radius: 8px;
 }
@@ -32,25 +32,35 @@ section {
 form{
     display: flex;
     justify-content: space-between;
+    border: solid 1px red;
 }
 input{
     border: none;
     background-color: #f7f7f7;
     border-radius: 5px;
+    outline: none;
 }
-.area-email input,.area-name input, .area-numero input, .area-linguagem input{
-    width: 100%;
+.area-email input, .area-numero input, .area-linguagem input{
     height: 40px;
+    width: 100%;
 }
-.area-email, .area-linguagem, .area-numero, .area-radio, .area-opcao, .area-name, .area-botao{
+.area-email, .area-linguagem, .area-numero, .area-radio, .area-opcao{
 	width: 100%;
     margin-bottom: 15px;
-}
-.area-opcao p{
-    margin-bottom: 10px;
+    border: solid 1px red;
 }
 .area-botao{
-    text-align: right;
+    text-align: center;
+}
+.area-name input{
+    width: 48%;
+    height: 40px;
+    border: solid 1px red;
+}
+.area-name{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
 }
 #btEnviar{
     width: 45%;
@@ -65,9 +75,7 @@ input{
 input::placeholder{
 	color:#6666da;
 }
-input:focus{
-	outline: none;
-}
+
 #outResposta{
     text-align: center;
     color: #ffffff;
