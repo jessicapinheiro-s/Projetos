@@ -2,10 +2,16 @@
     margin: 0px;
     padding: 0px;
 }
+:root{
+    --bg-body-glass: linear-gradient(45deg, #2a98ff,#ff00ff );
+    --bg-glass: linear-gradient( rgba(255,255,255,0.1), rgba(255,255,255,0.3) );
+    --borda : rgba(255,255,255,0.3);
+    --font-color: #ececec;
+}
 body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 1em;
-    background-image: linear-gradient(#ff2cdf, #0014ff);
+    font-size: 1rem;
+    background: var(--bg-body-glass);
     background-repeat: no-repeat;
     background-position:  center;
     background-size: 100%;
@@ -16,7 +22,7 @@ body{
     margin-top: 70px;
     margin-left: auto;
     margin-right: auto;
-    background-color: white;
+    background: var(--bg-glass);
     width: 500px;
     height: 600px;
     border-radius: 10px;
@@ -33,11 +39,11 @@ body{
 h1{
     text-align: center;
     padding-top: 20px;
-    color: #3a3a3a;
+    color: var(--font-color);
 }
 input{
-    background-color: #f1f1f1;
-    border: none;
+    background-color: #f1f1f100;
+    border: var(--borda) solid 1px;
     border-radius: 10px;
 }
 form{
@@ -48,6 +54,15 @@ form{
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
+}
+.area-email, .area-senha{
+    width:100%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.area-email input, .area-senha input{
+    width: 80%;
+    height: 40px;
 }
 #area-nome input, #area-senha input{
     width: 45%;
@@ -65,6 +80,11 @@ form{
 #area-termos{
     margin-bottom: 20px;
 }
+.area-botao-login{
+    width:100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
 #area-botao{
     width:100%;
     border-radius: 10px;
@@ -72,24 +92,36 @@ form{
     justify-content: center;
     margin-bottom: 20px;
 }
-
+label{
+    color: var(--font-color);
+}
+#btlogin{
+    width: 50%;
+    background-color: #7606b8;
+    color: var(--font-color);
+    border: none;
+    height: 40px;
+    padding: 10px;
+    border-radius: 10px;
+}
 #btCadastrar{
     width: 50%;
-    background-color: #9494fa;
-    color: #ffffff;
+    background-color: #2446df;
+    color: var(--font-color);
+    border: none;
     cursor:pointer;
     height: 40px;
     padding: 10px;
 }
-#btCadastrar:hover{
+#btCadastrar:hover, #btlogin:hover{
 	background-color: #4072a0;
 }
 #entrar{
-    color:#3a3a3a;
+    color: var(--font-color);
     text-align: center;
 }
 input::placeholder{
-	color:#3a3a3a;
+    color: var(--font-color);
 }
 input:focus{
 	outline: none;
